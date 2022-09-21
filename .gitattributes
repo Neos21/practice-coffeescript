@@ -1,0 +1,2 @@
+# 言語判定から JS を除外する
+*.js linguist-detectable=false

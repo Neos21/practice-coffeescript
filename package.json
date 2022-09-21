@@ -1,0 +1,30 @@
+{
+  "name": "practice-coffeescript",
+  "description": "Practice CoffeeScript",
+  "private": true,
+  "scripts": {
+    "start": "node ./dist/main.js",
+    "dev"  : "coffee ./src/main.coffee",
+    "build"        : "coffee --output ./dist --compile ./src/*.coffee",
+    "build-by-cake": "cake build",
+    "coffee": "coffee",
+    "cake"  : "cake"
+  },
+  "author": "Neo <neos21@gmail.com> (https://neos21.net/)",
+  "license": "MIT",
+  "homepage": "https://github.com/Neos21/practice-coffeescript#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neos21/practice-coffeescript.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Neos21/practice-coffeescript/issues"
+  },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/Neos21"
+  },
+  "devDependencies": {
+    "coffeescript": "2.7.0"
+  }
+}
